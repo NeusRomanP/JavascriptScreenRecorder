@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(2, 2, 76);
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.video{
+    margin: auto;
+    border: white 5px solid;
+    max-width: 800px;
+    width: 80%;
+    height: fit-content;
+}
+
+video{
+    /*border: yellow 3px solid;*/
+    width: 100%;
+    position: relative;
+    left: -2px;
+    bottom: -2px;
+}
